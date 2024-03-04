@@ -1,0 +1,48 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+li{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+p{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'SpaceGrotesk-Regular';
+}
+
+
+
+/* responsive */

@@ -1,0 +1,32 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.ProfilePhoto{
+    width: 40px;
+    margin-bottom: 4px;
+}
+
+.ProfilePhoto img{
+    width: 100%;
+}
+
+.logo p{
+    font-size: 13px;
+    margin: 0px;
+}
+
+.logo .darkTheme{
+    color: #ffff;
+}
+
+.logo .lightTheme{
+    color: #000000;
+}
+

@@ -1,0 +1,21 @@
+.Page-navigation{
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.pagination{
+    /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.cover-of-cards{
+  margin-top: 0px !important;
+}
+
+
+
+@media only screen and (min-width:481px) and (max-width:640px) {
+  
+}
