@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {Button, Layout, theme} from 'antd'
 import {MenuUnfoldOutlined , MenuFoldOutlined} from "@ant-design/icons"
 import "./AdminNavbar.css"
-import Logo from './Logo/logo';
+// import Logo from './Logo/logo';
 import MenuList from './MenuList/MenuList';
 import ToggleThemeBtn from './ToggleTheme/ToggleThemeBtn';
 import { ViewAllCards } from '../../export';
