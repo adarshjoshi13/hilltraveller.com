@@ -18,6 +18,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 // Use cors middleware with specific options
+// just a sample
 app.use(cors({
   origin: "*",
   credentials: true,
