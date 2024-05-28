@@ -1,4 +1,4 @@
-const Destination = require('../models/Destination.models');
+const Destination = require('../modals/Destination.models');
 const sizeOf = require('image-size');
 const fs = require('fs');
 const { json } = require('express');

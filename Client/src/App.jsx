@@ -12,10 +12,6 @@ import Aos from 'aos';
 import "aos/dist/aos.css"
 import { duration } from '@mui/material';
 
-
-
-
-
 // Create a Layout component that includes the header and footer
 
 

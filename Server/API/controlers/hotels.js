@@ -1,7 +1,7 @@
-const Hotels = require('../models/Hotels.model')
+const Hotels = require('../modals/Hotels.model')
 const {checkImageSize} = require('../helper/ImageSize');
 const {uploadFileOnCloudinary,deleteFileFromCloudinary} = require('../helper/Cloudinary');
-const Hotel = require('../models/Hotels.model');
+const Hotel = require('../modals/Hotels.model');
 
 
 async function Addhotel(req,res){

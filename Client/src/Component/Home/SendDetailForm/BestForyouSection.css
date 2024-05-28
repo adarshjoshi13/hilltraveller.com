@@ -9,7 +9,6 @@ section.best-for-you {
     align-content: stretch;
     justify-content: space-between;
     margin-top: 45px;
-    background-image: url(./img/Home-banner1.jpg);
     background: rgb(8 131 189 / 7%);
 }
 
@@ -131,7 +130,6 @@ section.best-for-you {
 .best-for-you .let-us-find-form .form-select {
     border-bottom: 2px solid #ffffff !important;
     /* background-color: #000; */
-    background-image: url(../img/Arrow\ 4.png);
     border-radius: 0px;
     border: none;
     background-size: 12px;

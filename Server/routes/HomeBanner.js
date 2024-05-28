@@ -9,9 +9,4 @@ router.put('/update-priority/:id',UpdatePriority);
 router.delete('/deleate-banner/:id',deleateBanner);
 router.put('/update-visiblity/:id',UpdateVisibility)
 
-
-
-
-
-
 module.exports = router;

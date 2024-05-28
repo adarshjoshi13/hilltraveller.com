@@ -152,10 +152,6 @@
     background-color: #000000;
 }
 
-.enquire_popup .btn-close {
-    background: transparent url(../img/close_icon.png) center/1em auto no-repeat;
-}
-
 .modal-backdrop.show {
     opacity: .5;
     background: #ffffff;

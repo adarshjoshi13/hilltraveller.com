@@ -1,6 +1,6 @@
 const {checkImageSize} = require('../helper/ImageSize');
 const {uploadFileOnCloudinary,deleteFileFromCloudinary} = require('../helper/Cloudinary');
-const Testimonial = require('../models/testimonial');
+const Testimonial = require('../modals/testimonial');
 
 async function AddTestimonial (req,res){
     const cloudinaryArr = []

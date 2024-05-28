@@ -1,4 +1,4 @@
-const BannerSlider = require('../models/HomeSlider.model')
+const BannerSlider = require('../modals/HomeSlider.model')
 const fs = require('fs');
 const sizeOf = require('image-size');
 const {uploadFileOnCloudinary,deleteFileFromCloudinary} = require('../helper/Cloudinary')

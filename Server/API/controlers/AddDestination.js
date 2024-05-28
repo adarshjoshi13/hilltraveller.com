@@ -1,7 +1,7 @@
 const { json } = require('express');
 const mongoose = require('../config/connect');
 const { uploadFileOnCloudinary } = require('../helper/Cloudinary');
-const Destination = require('../models/Destination.models');
+const Destination = require('../modals/Destination.models');
 
 
 const AddDestination = async (req, res) => {

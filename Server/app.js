@@ -19,9 +19,9 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 // Use cors middleware with specific options
 app.use(cors({
-  origin: 'http://localhost:5173', // Replace with the allowed origin(s)
+  origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, // Enable credentials (cookies, HTTP authentication)
+  credentials: true,
 }));
 
 app.use(logger('dev'));

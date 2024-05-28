@@ -26,7 +26,7 @@ function AdminLogin() {
 
       if(result.status === 200){
         Setloader(false);
-        navigate('/')
+        navigate('/admin/home')
         toast.success(result.data.message)
       }
        

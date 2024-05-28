@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const Admin = require('../models/Admin')
+const Admin = require('../modals/Admin')
 const bcrypt = require('bcrypt');
 const CreateAdminControler = async (req, res) => {
     try {
