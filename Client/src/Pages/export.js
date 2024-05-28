@@ -6,7 +6,7 @@ import AdminLogin from "./admin/Login/AdminLogin";
 import Adminlayout from "../Component/Admin/Adminlayout";
 import AddDestination from "./admin/Add destination/AddDestination";
 import Contact from "./Contact";
-import ViewAllDestination from "./admin/View-all-destination/viewAllDestination";
+import ViewAllDestination from "./admin/View-all-destination/ViewAllDestination.jsx";
 import About from "./About";
 import { ViewAllCards } from "../Component/export";
 import PrivacyPolicy from "./PrivacyPolicys/PrivacyPolicys";
