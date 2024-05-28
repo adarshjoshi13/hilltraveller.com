@@ -1,7 +1,6 @@
 import React from 'react';
 import TopPlacesSlider from '../TopPlacesSlider/TopPlacesSlider'
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
-import './TopPlacessection.css'
 import { Link } from 'react-router-dom';
 
 const TopPlacesSection = ({slides,sectionData}) => {
