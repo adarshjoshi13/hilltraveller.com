@@ -19,9 +19,9 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 // Use cors middleware with specific options
 app.use(cors({
-  origin: '*',
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  origin: "*",
   credentials: true,
+  optionsSuccessStatus: 200
 }));
 
 app.use(logger('dev'));
