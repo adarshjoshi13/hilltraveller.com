@@ -118,6 +118,6 @@ Object.entries(data).forEach(([key, value]) => {
     }
 }
 
-const destination = new Destiantion("http://localhost:3000")
+const destination = new Destiantion("https://hilltraveller-com.onrender.com")
 
 export {destination}

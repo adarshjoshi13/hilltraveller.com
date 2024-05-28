@@ -30,6 +30,6 @@ class Authentication {
   }
 }
 
-const auth = new Authentication('http://localhost:3000');
+const auth = new Authentication('https://hilltraveller-com.onrender.com');
 
 export default auth;
